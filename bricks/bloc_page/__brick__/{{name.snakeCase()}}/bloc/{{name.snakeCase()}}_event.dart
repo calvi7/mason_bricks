@@ -1,8 +1,6 @@
 part of '{{name.snakeCase()}}_bloc.dart';
 
-abstract class {{name.pascalCase()}}Event extends Equatable {
-  const {{name.pascalCase()}}Event();
-
-  @override
-  List<Object> get props => [];
+@freezed
+class {{name.pascalCase()}}Event with _${{name.pascalCase()}}Event {
+  const factory {{name.pascalCase()}}Event.started() = _Started;
 }
