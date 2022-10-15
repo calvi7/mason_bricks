@@ -7,5 +7,5 @@ part '{{name.snakeCase()}}_state.dart';
 part '{{name.snakeCase()}}_bloc.freezed.dart';
 
 class {{name.pascalCase()}}Bloc extends Bloc<{{name.pascalCase()}}Event, {{name.pascalCase()}}State> {
-  {{name.pascalCase()}}Bloc() : super(_Initial());
+  {{name.pascalCase()}}Bloc() : super(const _Initial());
 }
