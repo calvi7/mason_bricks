@@ -10,6 +10,8 @@ class {{name.pascalCase()}}Page extends StatelessWidget {
     Key? key,
   }) : super(key: key);
 
+  static const String route = {{page_route}};
+
   @override
   Widget build(BuildContext context) {
     return BlocProvider(

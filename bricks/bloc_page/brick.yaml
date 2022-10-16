@@ -13,3 +13,8 @@ vars:
     description: Page name
     default: Counter
     prompt: What is the name of your page?
+  page_route:
+    type: string
+    description: Page route
+    default: /
+    prompt: What is this pages' route?
